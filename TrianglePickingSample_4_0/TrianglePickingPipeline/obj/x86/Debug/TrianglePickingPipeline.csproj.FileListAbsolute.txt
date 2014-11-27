@@ -1,0 +1,5 @@
+C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingPipeline\bin\x86\Debug\TrianglePickingPipeline.dll
+C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingPipeline\bin\x86\Debug\TrianglePickingPipeline.pdb
+C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingPipeline\obj\x86\Debug\TrianglePickingPipeline.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingPipeline\obj\x86\Debug\TrianglePickingPipeline.dll
+C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingPipeline\obj\x86\Debug\TrianglePickingPipeline.pdb
