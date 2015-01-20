@@ -52,7 +52,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(80, 435);
+            this.panel1.Size = new System.Drawing.Size(80, 414);
             this.panel1.TabIndex = 0;
             // 
             // buttonMove
@@ -126,7 +126,7 @@
             this.trianglePickingGame1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.trianglePickingGame1.Location = new System.Drawing.Point(80, 0);
             this.trianglePickingGame1.Name = "trianglePickingGame1";
-            this.trianglePickingGame1.Size = new System.Drawing.Size(704, 435);
+            this.trianglePickingGame1.Size = new System.Drawing.Size(704, 414);
             this.trianglePickingGame1.TabIndex = 1;
             this.trianglePickingGame1.Text = "trianglePickingGame1";
             this.trianglePickingGame1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.trianglePickingGame1_KeyDown);
@@ -136,7 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 435);
+            this.ClientSize = new System.Drawing.Size(784, 414);
             this.Controls.Add(this.trianglePickingGame1);
             this.Controls.Add(this.panel1);
             this.Menu = this.mainMenu1;

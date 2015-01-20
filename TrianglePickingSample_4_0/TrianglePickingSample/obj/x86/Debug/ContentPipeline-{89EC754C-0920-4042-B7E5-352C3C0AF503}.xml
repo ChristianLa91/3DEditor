@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\cursor.xnb</Output>
-      <Time>2014-11-09T19:05:06.5732106+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\cursor.xnb</Output>
+      <Time>2015-01-14T14:08:29.7073517+01:00</Time>
     </Item>
     <Item>
       <Source>Green-gel-x.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\Green-gel-x.xnb</Output>
-      <Time>2014-11-13T22:38:21.1724803+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\Green-gel-x.xnb</Output>
+      <Time>2015-01-14T14:08:29.6073461+01:00</Time>
     </Item>
     <Item>
       <Source>Cats.fbx</Source>
@@ -25,13 +25,13 @@
       <Importer>FbxImporter</Importer>
       <Processor>TrianglePickingProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\Cats.xnb</Output>
-      <Time>2014-11-09T19:05:06.4912059+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\Cats.xnb</Output>
+      <Time>2015-01-14T14:08:29.5963454+01:00</Time>
       <Dependency>
-        <Key>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Cats_0.xml</Key>
-        <Value>2014-11-25T22:09:12.5806498+01:00</Value>
+        <Key>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Cats_0.xml</Key>
+        <Value>2015-01-20T13:52:52.7199367+01:00</Value>
       </Dependency>
-      <Request>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\cat_0.xnb</Request>
+      <Request>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\cat_0.xnb</Request>
     </Item>
     <Item>
       <Source>P2Wedge.fbx</Source>
@@ -39,13 +39,13 @@
       <Importer>FbxImporter</Importer>
       <Processor>TrianglePickingProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\P2Wedge.xnb</Output>
-      <Time>2014-11-09T19:05:07.1562455+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\P2Wedge.xnb</Output>
+      <Time>2015-01-14T14:08:29.6723494+01:00</Time>
       <Dependency>
-        <Key>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\P2Wedge_0.xml</Key>
-        <Value>2014-11-25T22:09:15.5181574+01:00</Value>
+        <Key>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\P2Wedge_0.xml</Key>
+        <Value>2015-01-20T13:52:54.5168129+01:00</Value>
       </Dependency>
-      <Request>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\wedge_p2_diff_v1_0.xnb</Request>
+      <Request>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\wedge_p2_diff_v1_0.xnb</Request>
     </Item>
     <Item>
       <Source>table.FBX</Source>
@@ -53,13 +53,13 @@
       <Importer>FbxImporter</Importer>
       <Processor>TrianglePickingProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\table.xnb</Output>
-      <Time>2014-11-09T19:05:07.3982575+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\table.xnb</Output>
+      <Time>2015-01-14T14:08:29.7483544+01:00</Time>
       <Dependency>
-        <Key>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\table_0.xml</Key>
-        <Value>2014-11-25T22:09:16.3775331+01:00</Value>
+        <Key>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\table_0.xml</Key>
+        <Value>2015-01-20T13:52:55.0011883+01:00</Value>
       </Dependency>
-      <Request>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\wood_0.xnb</Request>
+      <Request>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\wood_0.xnb</Request>
     </Item>
     <Item>
       <Source>Cylinder.fbx</Source>
@@ -67,11 +67,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>TrianglePickingProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\Cylinder.xnb</Output>
-      <Time>2014-11-09T19:05:06.7062182+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\Cylinder.xnb</Output>
+      <Time>2015-01-14T14:08:29.6043449+01:00</Time>
       <Dependency>
-        <Key>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Cylinder_0.xml</Key>
-        <Value>2014-11-25T22:09:17.9893171+01:00</Value>
+        <Key>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Cylinder_0.xml</Key>
+        <Value>2015-01-20T13:52:55.9386931+01:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -80,11 +80,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>TrianglePickingProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\Sphere.xnb</Output>
-      <Time>2014-11-09T19:05:07.2802516+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\Sphere.xnb</Output>
+      <Time>2015-01-14T14:08:29.6883495+01:00</Time>
       <Dependency>
-        <Key>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Sphere_0.xml</Key>
-        <Value>2014-11-25T22:09:18.6299435+01:00</Value>
+        <Key>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Sphere_0.xml</Key>
+        <Value>2015-01-20T13:52:56.2980668+01:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -93,15 +93,15 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\hudFont.xnb</Output>
-      <Time>2014-11-09T19:05:06.7842234+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\hudFont.xnb</Output>
+      <Time>2015-01-14T14:08:29.7153518+01:00</Time>
     </Item>
     <Item>
       <Source>Cats.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Cats_0.xml</Output>
-      <Time>2014-11-09T19:05:06.4912059+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Cats_0.xml</Output>
+      <Time>2015-01-14T14:08:29.5963454+01:00</Time>
     </Item>
     <Item>
       <Source>cat.tga</Source>
@@ -116,15 +116,15 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\cat_0.xnb</Output>
-      <Time>2014-11-09T19:05:06.4012007+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\cat_0.xnb</Output>
+      <Time>2015-01-14T14:08:29.7053515+01:00</Time>
     </Item>
     <Item>
       <Source>P2Wedge.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\P2Wedge_0.xml</Output>
-      <Time>2014-11-09T19:05:07.1562455+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\P2Wedge_0.xml</Output>
+      <Time>2015-01-14T14:08:29.6723494+01:00</Time>
     </Item>
     <Item>
       <Source>wedge_p2_diff_v1.tga</Source>
@@ -139,15 +139,15 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\wedge_p2_diff_v1_0.xnb</Output>
-      <Time>2014-11-09T19:05:07.5732969+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\wedge_p2_diff_v1_0.xnb</Output>
+      <Time>2015-01-14T14:08:29.7573538+01:00</Time>
     </Item>
     <Item>
       <Source>table.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\table_0.xml</Output>
-      <Time>2014-11-09T19:05:07.3982575+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\table_0.xml</Output>
+      <Time>2015-01-14T14:08:29.7483544+01:00</Time>
     </Item>
     <Item>
       <Source>wood.tga</Source>
@@ -162,22 +162,22 @@
         <Data Key="PremultiplyAlpha" Type="bool">true</Data>
       </Parameters>
       <Options>None</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\wood_0.xnb</Output>
-      <Time>2014-11-09T19:05:08.2613197+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\wood_0.xnb</Output>
+      <Time>2015-01-14T14:08:29.8553597+01:00</Time>
     </Item>
     <Item>
       <Source>Cylinder.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Cylinder_0.xml</Output>
-      <Time>2014-11-09T19:05:06.7062182+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Cylinder_0.xml</Output>
+      <Time>2015-01-14T14:08:29.6043449+01:00</Time>
     </Item>
     <Item>
       <Source>Sphere.fbx</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
-      <Output>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Sphere_0.xml</Output>
-      <Time>2014-11-09T19:05:07.2802516+01:00</Time>
+      <Output>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\Sphere_0.xml</Output>
+      <Time>2015-01-14T14:08:29.6883495+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -186,43 +186,43 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingSample\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Users\Christian\Downloads\TrianglePickingSample_4_0\TrianglePickingPipeline\bin\x86\Debug\TrianglePickingPipeline.dll</Key>
-        <Value>2014-11-25T22:09:06.7681395+01:00</Value>
+        <Key>C:\Users\Christian\Documents\GitHub\3DEditor\TrianglePickingSample_4_0\TrianglePickingPipeline\bin\x86\Debug\TrianglePickingPipeline.dll</Key>
+        <Value>2015-01-20T13:52:50.8918073+01:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2011-09-01T16:22:30+02:00</Value>
+        <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-11-13T21:00:18.0472626+01:00</Value>
+        <Value>2015-01-20T13:45:48.2846116+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
