@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace TrianglePicking
 {
-    class VertexModelMesh
+    public class VertexModelMesh
     {
         private VertexPositionColorTexture[] mVertexDataArray = new VertexPositionColorTexture[1];
         private int mVertexDataLenght = 0;

@@ -40,6 +40,7 @@ namespace TrianglePicking
         VertexPositionColor[][] mSelectedVertices = new VertexPositionColor[1][]{new VertexPositionColor[3]};
         VertexPositionColor[][] mSelectedVerticesBefore;
 
+        Color mColorStandard = Color.Lerp(Color.LightGray, Color.Black, 0.1f);
         int mSelectedTriangles = 0;
 
         MainForm.EditMode mEditMode = MainForm.EditMode.NORMAL;
@@ -95,7 +96,7 @@ namespace TrianglePicking
         // how fast does the camera zoom in and out?
         const float CameraZoomSpeed = .01f;
         // the camera can't be further away than this distance
-        const float CameraMaxDistance = 10.0f;
+        const float CameraMaxDistance = 20.0f;
         // and it can't be closer than this
         const float CameraMinDistance = 1.2f;
 
@@ -242,23 +243,39 @@ namespace TrianglePicking
 
             for (int x = 8; x < 28; x += 2)
             {
-                helpGrid[x]     = new VertexPositionColor(new Vector3(-5, 0,  -5 + (x - 8)/2), Color.Gray);
-                helpGrid[x + 1] = new VertexPositionColor(new Vector3( 5, 0,  -5 + (x - 8)/2), Color.Gray);
+                if (x != 18)
+                {
+                    helpGrid[x    ] = new VertexPositionColor(new Vector3(-5, 0, -5 + (x - 8) / 2), Color.Gray);
+                    helpGrid[x + 1] = new VertexPositionColor(new Vector3( 5, 0, -5 + (x - 8) / 2), Color.Gray);
+                }
+                else
+                {
+                    helpGrid[x    ] = new VertexPositionColor(new Vector3(-5, 0, -5 + (x - 8) / 2), Color.Red);
+                    helpGrid[x + 1] = new VertexPositionColor(new Vector3( 5, 0, -5 + (x - 8) / 2), Color.Red);
+                }
             }
 
             for (int z = 28; z < 48; z += 2)
             {
-                helpGrid[z]     = new VertexPositionColor(new Vector3(-5 + (z - 28)/2, 0, -5), Color.Gray);
-                helpGrid[z + 1] = new VertexPositionColor(new Vector3(-5 + (z - 28)/2, 0,  5), Color.Gray);
+                if (z != 38)
+                {
+                    helpGrid[z    ] = new VertexPositionColor(new Vector3(-5 + (z - 28) / 2, 0, -5), Color.Gray);
+                    helpGrid[z + 1] = new VertexPositionColor(new Vector3(-5 + (z - 28) / 2, 0,  5), Color.Gray);
+                }
+                else
+                {
+                    helpGrid[z    ] = new VertexPositionColor(new Vector3(-5 + (z - 28) / 2, 0, -5), Color.Green);
+                    helpGrid[z + 1] = new VertexPositionColor(new Vector3(-5 + (z - 28) / 2, 0,  5), Color.Green);
+                }
             }
 
             // now that the GraphicsDevice has been created, we can create the projection matrix.
             projectionMatrix = Matrix.CreatePerspectiveFieldOfView(
                 MathHelper.ToRadians(45.0f), GraphicsDevice.Viewport.AspectRatio, .01f, 1000);
 
-            SetUpVertices(Color.DarkGray);
+            SetUpVertices(mColorStandard);
             SetUpIndices();
-            SetUpVertexModel(Color.DarkGray);
+            SetUpVertexModel(mColorStandard);
 
             //base.Initialize();
 
@@ -447,7 +464,7 @@ namespace TrianglePicking
             //GraphicsDevice device = graphics.GraphicsDevice;
             GraphicsDevice device = GraphicsDevice;
 
-            device.Clear(Color.LightGray);
+            device.Clear(Color.Lerp(Color.LightGray, Color.White, 0.2f));
 
             device.BlendState = BlendState.Opaque;
             device.DepthStencilState = DepthStencilState.Default;
@@ -1018,7 +1035,7 @@ namespace TrianglePicking
             const float HALF_SIDE = 1.0f;
             VertexModelMesh vertexModelMesh = new VertexModelMesh();
 
-            Color color = Color.DarkGray;
+            Color color = mColorStandard;
 
             Array.Resize(ref mVertexModels, mVertexModels.Length + 1);
             mVertexModels[mVertexModels.Length - 1] = new VertexModel();
@@ -1101,6 +1118,55 @@ namespace TrianglePicking
             mVertexModelFilenames[mVertexModelFilenames.Length - 1] = "Cube";
         }
 
+        public void CreateCylinder()
+        {
+            VertexModelMesh vertexModelMesh = new VertexModelMesh();
+
+            Color color = mColorStandard;
+
+            Array.Resize(ref mVertexModels, mVertexModels.Length + 1);
+            mVertexModels[mVertexModels.Length - 1] = new VertexModel();
+
+            CylinderPrimitive temp = new CylinderPrimitive(vertexModelMesh, 1f, 1f, 32, color);
+
+            mVertexModels[mVertexModels.Length - 1].AddMesh(vertexModelMesh);
+
+            Array.Resize(ref mVertexModelWorldTransforms, mVertexModelWorldTransforms.Length + 1);
+            mVertexModelWorldTransforms[mVertexModelWorldTransforms.Length - 1] = Matrix.CreateTranslation(new Vector3(0, 0, 0));
+
+            Array.Resize(ref mVertexModelAbsoluteBoneTransforms, mVertexModelAbsoluteBoneTransforms.Length + 1);
+
+            Array.Resize(ref mSelectedVertices, mSelectedVertices.Length + 1);
+            mSelectedVertices[mSelectedVertices.Length - 1] = new VertexPositionColor[3];
+
+            Array.Resize(ref mVertexModelFilenames, mVertexModelFilenames.Length + 1);
+            mVertexModelFilenames[mVertexModelFilenames.Length - 1] = "Cylinder";
+        }
+        
+        public void CreateSphere()
+        {
+            VertexModelMesh vertexModelMesh = new VertexModelMesh();
+
+            Color color = mColorStandard;
+
+            Array.Resize(ref mVertexModels, mVertexModels.Length + 1);
+            mVertexModels[mVertexModels.Length - 1] = new VertexModel();
+
+            SpherePrimitive temp = new SpherePrimitive(vertexModelMesh, 1f, 16, color);
+
+            mVertexModels[mVertexModels.Length - 1].AddMesh(vertexModelMesh);
+
+            Array.Resize(ref mVertexModelWorldTransforms, mVertexModelWorldTransforms.Length + 1);
+            mVertexModelWorldTransforms[mVertexModelWorldTransforms.Length - 1] = Matrix.CreateTranslation(new Vector3(0, 0, 0));
+
+            Array.Resize(ref mVertexModelAbsoluteBoneTransforms, mVertexModelAbsoluteBoneTransforms.Length + 1);
+
+            Array.Resize(ref mSelectedVertices, mSelectedVertices.Length + 1);
+            mSelectedVertices[mSelectedVertices.Length - 1] = new VertexPositionColor[3];
+
+            Array.Resize(ref mVertexModelFilenames, mVertexModelFilenames.Length + 1);
+            mVertexModelFilenames[mVertexModelFilenames.Length - 1] = "Sphere";
+        }
 
         #endregion
 
@@ -1427,7 +1493,6 @@ namespace TrianglePicking
 
         #endregion
     }
-
 
     #region Entry Point
 

@@ -92,5 +92,14 @@ namespace TrianglePicking
             }
         }
 
+        private void buttonCreateCylinder_Click(object sender, EventArgs e)
+        {
+            trianglePickingGame1.CreateCylinder();
+        }
+
+        private void buttonCreateSphere_Click(object sender, EventArgs e)
+        {
+            trianglePickingGame1.CreateSphere();
+        }
     }
 }

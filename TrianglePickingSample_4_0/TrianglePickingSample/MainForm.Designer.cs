@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.buttonCreateCylinder = new System.Windows.Forms.Button();
             this.buttonMove = new System.Windows.Forms.Button();
             this.buttonCreateCube = new System.Windows.Forms.Button();
             this.mainMenu1 = new System.Windows.Forms.MainMenu(this.components);
@@ -40,6 +41,7 @@
             this.menuItemMoveY = new System.Windows.Forms.MenuItem();
             this.menuItemMoveZ = new System.Windows.Forms.MenuItem();
             this.trianglePickingGame1 = new TrianglePicking.TrianglePickingGame();
+            this.buttonCreateSphere = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,18 +49,31 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.CausesValidation = false;
+            this.panel1.Controls.Add(this.buttonCreateSphere);
+            this.panel1.Controls.Add(this.buttonCreateCylinder);
             this.panel1.Controls.Add(this.buttonMove);
             this.panel1.Controls.Add(this.buttonCreateCube);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(80, 414);
+            this.panel1.Size = new System.Drawing.Size(80, 393);
             this.panel1.TabIndex = 0;
+            // 
+            // buttonCreateCylinder
+            // 
+            this.buttonCreateCylinder.Location = new System.Drawing.Point(3, 97);
+            this.buttonCreateCylinder.Name = "buttonCreateCylinder";
+            this.buttonCreateCylinder.Size = new System.Drawing.Size(72, 41);
+            this.buttonCreateCylinder.TabIndex = 2;
+            this.buttonCreateCylinder.TabStop = false;
+            this.buttonCreateCylinder.Text = "Cylinder";
+            this.buttonCreateCylinder.UseVisualStyleBackColor = true;
+            this.buttonCreateCylinder.Click += new System.EventHandler(this.buttonCreateCylinder_Click);
             // 
             // buttonMove
             // 
             this.buttonMove.CausesValidation = false;
-            this.buttonMove.Location = new System.Drawing.Point(3, 50);
+            this.buttonMove.Location = new System.Drawing.Point(3, 144);
             this.buttonMove.Name = "buttonMove";
             this.buttonMove.Size = new System.Drawing.Size(72, 41);
             this.buttonMove.TabIndex = 1;
@@ -126,17 +141,28 @@
             this.trianglePickingGame1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.trianglePickingGame1.Location = new System.Drawing.Point(80, 0);
             this.trianglePickingGame1.Name = "trianglePickingGame1";
-            this.trianglePickingGame1.Size = new System.Drawing.Size(704, 414);
+            this.trianglePickingGame1.Size = new System.Drawing.Size(704, 393);
             this.trianglePickingGame1.TabIndex = 1;
             this.trianglePickingGame1.Text = "trianglePickingGame1";
             this.trianglePickingGame1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.trianglePickingGame1_KeyDown);
             this.trianglePickingGame1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.trianglePickingGame1_MouseDown);
             // 
+            // buttonCreateSphere
+            // 
+            this.buttonCreateSphere.Location = new System.Drawing.Point(3, 50);
+            this.buttonCreateSphere.Name = "buttonCreateSphere";
+            this.buttonCreateSphere.Size = new System.Drawing.Size(72, 41);
+            this.buttonCreateSphere.TabIndex = 3;
+            this.buttonCreateSphere.TabStop = false;
+            this.buttonCreateSphere.Text = "Sphere";
+            this.buttonCreateSphere.UseVisualStyleBackColor = true;
+            this.buttonCreateSphere.Click += new System.EventHandler(this.buttonCreateSphere_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 414);
+            this.ClientSize = new System.Drawing.Size(784, 393);
             this.Controls.Add(this.trianglePickingGame1);
             this.Controls.Add(this.panel1);
             this.Menu = this.mainMenu1;
@@ -160,5 +186,7 @@
         private System.Windows.Forms.MenuItem menuItemMoveX;
         private System.Windows.Forms.MenuItem menuItemMoveY;
         private System.Windows.Forms.MenuItem menuItemMoveZ;
+        private System.Windows.Forms.Button buttonCreateCylinder;
+        private System.Windows.Forms.Button buttonCreateSphere;
     }
 }
